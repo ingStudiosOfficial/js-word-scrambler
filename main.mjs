@@ -11,7 +11,7 @@ console.log('Word scrambled:', scrambledWord);
 
 if (options.length === 0) process.exit(0);
 
-if (options.includes('-c')) {
+if (options.includes('c')) {
     await copyToClipboard(scrambledWord);
 }
 
